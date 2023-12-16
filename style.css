@@ -1,0 +1,97 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Reset some margins that are by default */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #001F3F;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 5px solid #FFDAB9;
+}
+
+/* List items in navigation bar */
+li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul {
+    text-align: right;
+}
+
+h1, 
+h2,
+figcaption {
+    font-family: 'Preahvihear', sans-serif;
+}
+
+label {
+    font-weight: bolder;
+}
+
+/* Footer */
+footer {
+    background: #001F3F;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    border-bottom: 7px solid rgb(6, 74, 6);
+}
+
+
+
+.form {
+    border: 4px solid rgb(206, 168, 104);
+    border-radius: 20px;
+    padding: 10px;
+    width: 400px;
+    /*TODO centrar el formulario */
+    margin: auto;
+    
+}
+
+.btn-send {
+    background-color: #001F3F;
+    color: white;
+    margin-top: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    background-color: #523d2b;
+}
+
+.section-1 {
+    text-align: center;
+    /*padding of 80 on the top, 0 right and 0 bottom */
+    padding: 80px 0 0;
+}
+
+#section-2 {
+    background: #FFDAB9  ;
+    text-align: center;
+    padding: 15px;
+    border-top: 3px solid rgb(6, 74, 6);
+}
+
+
+
+
+
+
